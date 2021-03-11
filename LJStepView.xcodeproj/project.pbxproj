@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		0E6F4CEF25FA1AB400CC55A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F4CEE25FA1AB400CC55A4 /* Assets.xcassets */; };
 		0E6F4CF225FA1AB400CC55A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F4CF025FA1AB400CC55A4 /* LaunchScreen.storyboard */; };
 		0E6F4CF525FA1AB400CC55A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F4CF425FA1AB400CC55A4 /* main.m */; };
+		0E6F4D0625FA1D0C00CC55A4 /* LJStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F4D0425FA1D0C00CC55A4 /* LJStepView.m */; };
+		0E6F4D0725FA1D0C00CC55A4 /* LJStepLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F4D0525FA1D0C00CC55A4 /* LJStepLayer.m */; };
+		0E6F4D1625FA220300CC55A4 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F4D1525FA220300CC55A4 /* testViewController.m */; };
+		33617E9641C9B79C798D7B07 /* Pods_LJStepView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C4B9E10EB0E44EF124031A /* Pods_LJStepView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,15 @@
 		0E6F4CF125FA1AB400CC55A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E6F4CF325FA1AB400CC55A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E6F4CF425FA1AB400CC55A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6F4D0225FA1D0C00CC55A4 /* LJStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStepView.h; sourceTree = "<group>"; };
+		0E6F4D0325FA1D0C00CC55A4 /* LJStepLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJStepLayer.h; sourceTree = "<group>"; };
+		0E6F4D0425FA1D0C00CC55A4 /* LJStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStepView.m; sourceTree = "<group>"; };
+		0E6F4D0525FA1D0C00CC55A4 /* LJStepLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJStepLayer.m; sourceTree = "<group>"; };
+		0E6F4D1425FA220300CC55A4 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		0E6F4D1525FA220300CC55A4 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		234CB1B80E80ECDBB6A2B9D0 /* Pods-LJStepView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJStepView.debug.xcconfig"; path = "Target Support Files/Pods-LJStepView/Pods-LJStepView.debug.xcconfig"; sourceTree = "<group>"; };
+		239DB3A8E986FD23C236A265 /* Pods-LJStepView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJStepView.release.xcconfig"; path = "Target Support Files/Pods-LJStepView/Pods-LJStepView.release.xcconfig"; sourceTree = "<group>"; };
+		45C4B9E10EB0E44EF124031A /* Pods_LJStepView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LJStepView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33617E9641C9B79C798D7B07 /* Pods_LJStepView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +61,8 @@
 			children = (
 				0E6F4CE125FA1AAF00CC55A4 /* LJStepView */,
 				0E6F4CE025FA1AAF00CC55A4 /* Products */,
+				9F36F2EEB542AAD9A315F66B /* Pods */,
+				E106143C8466E5C9834C3022 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +77,7 @@
 		0E6F4CE125FA1AAF00CC55A4 /* LJStepView */ = {
 			isa = PBXGroup;
 			children = (
+				0E6F4CFF25FA1CF500CC55A4 /* LJStepView */,
 				0E6F4CE225FA1AAF00CC55A4 /* AppDelegate.h */,
 				0E6F4CE325FA1AAF00CC55A4 /* AppDelegate.m */,
 				0E6F4CE525FA1AAF00CC55A4 /* SceneDelegate.h */,
@@ -72,8 +89,38 @@
 				0E6F4CF025FA1AB400CC55A4 /* LaunchScreen.storyboard */,
 				0E6F4CF325FA1AB400CC55A4 /* Info.plist */,
 				0E6F4CF425FA1AB400CC55A4 /* main.m */,
+				0E6F4D1425FA220300CC55A4 /* testViewController.h */,
+				0E6F4D1525FA220300CC55A4 /* testViewController.m */,
 			);
 			path = LJStepView;
+			sourceTree = "<group>";
+		};
+		0E6F4CFF25FA1CF500CC55A4 /* LJStepView */ = {
+			isa = PBXGroup;
+			children = (
+				0E6F4D0225FA1D0C00CC55A4 /* LJStepView.h */,
+				0E6F4D0425FA1D0C00CC55A4 /* LJStepView.m */,
+				0E6F4D0325FA1D0C00CC55A4 /* LJStepLayer.h */,
+				0E6F4D0525FA1D0C00CC55A4 /* LJStepLayer.m */,
+			);
+			path = LJStepView;
+			sourceTree = "<group>";
+		};
+		9F36F2EEB542AAD9A315F66B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234CB1B80E80ECDBB6A2B9D0 /* Pods-LJStepView.debug.xcconfig */,
+				239DB3A8E986FD23C236A265 /* Pods-LJStepView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E106143C8466E5C9834C3022 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C4B9E10EB0E44EF124031A /* Pods_LJStepView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E6F4CF825FA1AB400CC55A4 /* Build configuration list for PBXNativeTarget "LJStepView" */;
 			buildPhases = (
+				1485B5AD134E7D4C353D51E6 /* [CP] Check Pods Manifest.lock */,
 				0E6F4CDB25FA1AAF00CC55A4 /* Sources */,
 				0E6F4CDC25FA1AAF00CC55A4 /* Frameworks */,
 				0E6F4CDD25FA1AAF00CC55A4 /* Resources */,
+				6B86E3C65D0B8C530D1AAC31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +189,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1485B5AD134E7D4C353D51E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LJStepView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B86E3C65D0B8C530D1AAC31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJStepView/Pods-LJStepView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LJStepView/Pods-LJStepView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LJStepView/Pods-LJStepView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E6F4CDB25FA1AAF00CC55A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +239,9 @@
 				0E6F4CEA25FA1AAF00CC55A4 /* ViewController.m in Sources */,
 				0E6F4CE425FA1AAF00CC55A4 /* AppDelegate.m in Sources */,
 				0E6F4CF525FA1AB400CC55A4 /* main.m in Sources */,
+				0E6F4D0625FA1D0C00CC55A4 /* LJStepView.m in Sources */,
+				0E6F4D0725FA1D0C00CC55A4 /* LJStepLayer.m in Sources */,
+				0E6F4D1625FA220300CC55A4 /* testViewController.m in Sources */,
 				0E6F4CE725FA1AAF00CC55A4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,15 +382,18 @@
 		};
 		0E6F4CF925FA1AB400CC55A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234CB1B80E80ECDBB6A2B9D0 /* Pods-LJStepView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364S6M3263;
 				INFOPLIST_FILE = LJStepView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imanagesystems.LJStepView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,15 +402,18 @@
 		};
 		0E6F4CFA25FA1AB400CC55A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239DB3A8E986FD23C236A265 /* Pods-LJStepView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 364S6M3263;
 				INFOPLIST_FILE = LJStepView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imanagesystems.LJStepView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
