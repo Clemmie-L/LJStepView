@@ -3,7 +3,7 @@ stepView 和第三方WMPageController使用，效果还不错
 
 ## result
 
-![image]()
+![image](https://github.com/Clemmie-L/LJStepView/blob/main/Sources/image1.png)
 
 ## init
 
